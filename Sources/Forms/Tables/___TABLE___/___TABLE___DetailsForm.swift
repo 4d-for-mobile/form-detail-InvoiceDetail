@@ -27,11 +27,11 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
     }
 
     @IBAction override func nextRecord(_ sender: Any!) {
-            self.nextRecord()
+        nextRecord()
     }
 
     @IBAction override func previousRecord(_ sender: Any!) {
-            self.previousRecord()
+        previousRecord()
     }
 
     // MARK: Events
@@ -95,7 +95,5 @@ class ___TABLE___DetailsForm: DetailsForm___DETAILFORMTYPE___ {
     override func onDidDisappear(_ animated: Bool) {
         // Called after the view was dismissed, covered or otherwise hidden. Default does nothing
     }
-
     // MARK: Custom actions
-
 }
